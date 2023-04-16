@@ -1,0 +1,16 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "sass scss/styles.scss css/styles.css",
+    "watch:css": "sass --watch scss/styles.scss css/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.62.0"
+  }
+}

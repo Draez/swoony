@@ -1,0 +1,30 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-align: center;
+  background-color: #1C2746;
+}
+
+h1 {
+  color: #fff;
+  margin-top: 50px;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 1600px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo {
+  color: #FFF;
+  width: 120px;
+}
+nav .logo svg {
+  width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */

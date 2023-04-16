@@ -1,0 +1,32 @@
+$test: #1C2746;
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+    background-color: $test;
+}
+
+h1 {
+    color: #fff;
+    margin-top: 50px;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 1600px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        color: #FFF;
+        width: 120px;
+
+        svg {
+            width: 100%;
+        }
+    }
+}
